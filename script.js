@@ -2,7 +2,7 @@ document.getElementById("startButton").addEventListener("click", function() {
     let content = document.getElementById("content");
     content.innerHTML = "<p>Aplicando IA...</p>";
     setTimeout(function() {
-        content.innerHTML = "<p>Un momento...</p>";
+        content.innerHTML = "<p>Solo un momento...</p>";
         setTimeout(function() {
             content.innerHTML = "<p>Ya tengo el detalle...</p>";
             setTimeout(function() {
